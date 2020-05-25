@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Home</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -11,6 +10,7 @@
 {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'Navbar/style.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Atlanta First Day School</title>
 </head>
 <body>
   <center>
@@ -59,15 +59,13 @@
     <div class="carousel-item">
       <img src="{% static 'images/rename.jpeg' %}" class="d-block w-100" alt="picnic">
       <div class="carousel-caption d-none d-md-block">
-        <h4>Second slide label</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+        <h4>We look forward to welcoming your family into ours</h4>
       </div>
     </div>
     <div class="carousel-item">
       <img src="{% static 'images/paint.jpeg' %}" class="d-block w-100" alt="paint">
       <div class="carousel-caption d-none d-md-block">
-        <h4>Second slide label</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+        <h4>We look forward to welcoming your family into ours</h4>
       </div>
     </div>
   </div>
@@ -89,6 +87,20 @@
   <div class="row">
     <div class="col-12"><hr/></div>
   </div>
+  <div class="row">
+    <div class="col-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-2">Infants and Young Toddlers</div>
+        <div class="col-2">Toddlers</div>
+        <div class="col-2">Twos</div>
+        <div class="col-2">Preschool</div>
+        <div class="col-2">PreK</div>
+        <div class="col-2">Kindergarten and 1st grade</div>
+      </div>
+    </div>
+    </div>
+  </div>
     <div class="row">
     <div class="col-12">
     <br>
@@ -98,14 +110,38 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-3"></div>
-    <div class="col-3"><img src="{% static 'images/seat.jpg' %}" width="100%" height="100%" alt="" loading="lazy" class="rounded-circle"></div>
-    <div class="col-3"><h3>Adopt a Seat Program</h3><br>Check out our new Adopt a Seat Program!</div>
+    <div class="col-6"><img src="{% static 'images/seat.jpg' %}" width="100%" height="100%" alt="" loading="lazy" class="rounded-circle"></div>
+    <div class="col-3"><h3>Adopt a Seat Program</h3><br>As a result of the COVID-19 pandemic that has affected so many organizations, we now have a cap to the amount of students that can fill each classroom. To be able to adhere to health and safety guidelines as well as being able to keep our doors open, we came up with a solution- the Adopt A Seat program. Through this program, donors will be able to pay a small portion of what would have been the tuition of an enrolled student. Help us keep being able to teach and care for the children of Atlanta by donating today.<br><br><a href="{% url 'donate' %}" class="btn btn-secondary btn-lg" tabindex="-1" role="button">Donate Now</a></div>
     <div class="col-3"></div>
   </div>
   <div class="row">
+    <div class="col-12"><hr/></div>
+  </div>
+  <div class="row">
     <div class="col-12">
-    12
+    <br>
+    <br>
+    <h3>Pay Tuition Online</h3>
+    <br>
+    Parents please click the link below to go to our secure online payment portal.
+    <br>
+    <br>
+    <a href="https://family.daycareworks.com/login.jsp" class="btn btn-secondary btn-lg" tabindex="-1" role="button">Pay Now</a><br><br>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12"><hr/></div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+    <br>
+    <br>
+    <h3>Join our Mailing List</h3>
+    <br>
+    Parents please click the link above if you are not already on our e-mail list! We use e-mail to send you important Day School news,<br> event invitations and time sensitive information such as school closures and delays due to inclement weather.
+    <br>
+    <br>
+    <a href="https://visitor.r20.constantcontact.com/manage/optin?v=0018aaLHdu4GfRWECHj7iXM_e0z5qERgivmck0JJtQYBTsYvDFvIYwfVQ9x5EnbGXsAbwgIgk2Eyk-2g8Z9SFLq1DseLMtOvv7qxkAfDsn1J-i2igy6YZRFlsb5WnVuA3jUGihiAS0Htagm0L8jYnfXPyzJlntuC7B5o2P31he2dAs%3D" class="btn btn-secondary btn-lg" tabindex="-1" role="button">Join the Mailing List</a><br><br>
     </div>
   </div>
 </div>

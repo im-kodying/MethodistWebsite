@@ -13,3 +13,5 @@ def contact(request):
     return render(request, 'ContactUs.html')
 def meet(request):
     return render(request, 'MeetTheTeam.html')
+def donate(request):
+    return render(request, 'donate.html')
