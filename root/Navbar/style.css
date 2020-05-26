@@ -8,13 +8,15 @@
      padding-top: 0 !important;
  }
 h6 {
-    font-size: 20px !important;
-    padding-top: 25px !important;
-    padding-left: 150px !important;
+    font-size: 18px !important;
+    padding-top: 28px !important;
+    padding-left: 110px !important;
     color: #77B1D3;
 }
 h5 {
-    color: #77B1D3;
+    font-size: 18px !important;
+    padding-top: 5px !important;
+    color: #678539;
 }
 .carousel-item{
     width: 100%; /*width you want*/
@@ -38,4 +40,13 @@ h1 {
     width:100%;
     background-color: #000000b0;
     left: 0;
+}
+.frame {
+    background: rgb(228, 99, 99);
+    border: 12px solid #F5F5F5;
+    border-radius: 54px;
+    z-index: 1;
+}
+.btn {
+    background-color: #77B1D3;
 }
